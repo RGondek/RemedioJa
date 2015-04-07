@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IOE-MG-Zm8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-425.25" y="779.625"/>
+            <point key="canvasLocation" x="-1271.5" y="259.5"/>
         </scene>
         <!--Lembrete View Controller-->
         <scene sceneID="gyv-W8-0Gc">
@@ -144,7 +144,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Qzd-AG-IdV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yby-Gu-77I">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPd-Qg-jwy">
@@ -241,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E4S-4q-cuS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.5" y="779.5"/>
+            <point key="canvasLocation" x="-541.5" y="259.5"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="5az-tU-oRz">
@@ -433,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ngv-6t-lKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1167.5" y="1491.75"/>
+            <point key="canvasLocation" x="-1271.5" y="1107.5"/>
         </scene>
     </scenes>
     <resources>
@@ -443,7 +443,7 @@
         <image name="refresh" width="47" height="47"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Okf-vC-TYC"/>
+        <segue reference="3B8-pH-8fJ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
