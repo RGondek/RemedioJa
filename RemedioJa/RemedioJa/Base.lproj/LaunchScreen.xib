@@ -31,11 +31,11 @@
                         </mask>
                     </variation>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="Z1I-sR-DoG">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="Z1I-sR-DoG">
                     <rect key="frame" x="0.0" y="-5" width="480" height="485"/>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remédio Já" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="20" y="140" width="441" height="43"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remedito" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="131" width="441" height="60"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -96,6 +96,10 @@
                     <exclude reference="oYq-z8-7kO"/>
                 </mask>
                 <mask key="constraints">
+                    <exclude reference="1FZ-Ye-CHr"/>
+                    <exclude reference="1qV-n3-S0s"/>
+                    <exclude reference="fTd-hG-Vyh"/>
+                    <exclude reference="xVb-dx-YTE"/>
                     <exclude reference="1dg-G1-vx3"/>
                     <exclude reference="4S8-qi-Xe4"/>
                     <exclude reference="8Nn-DJ-0he"/>
@@ -104,10 +108,6 @@
                     <exclude reference="NYR-3i-BbF"/>
                     <exclude reference="wW4-bQ-pHd"/>
                     <exclude reference="yJU-UE-Pgb"/>
-                    <exclude reference="1FZ-Ye-CHr"/>
-                    <exclude reference="1qV-n3-S0s"/>
-                    <exclude reference="fTd-hG-Vyh"/>
-                    <exclude reference="xVb-dx-YTE"/>
                     <exclude reference="GZu-v9-ORE"/>
                     <exclude reference="aU6-j5-Eel"/>
                     <exclude reference="cRu-Ws-CO6"/>
@@ -118,6 +118,10 @@
                     <include reference="oYq-z8-7kO"/>
                 </mask>
                 <mask key="constraints">
+                    <include reference="1FZ-Ye-CHr"/>
+                    <include reference="1qV-n3-S0s"/>
+                    <exclude reference="fTd-hG-Vyh"/>
+                    <include reference="xVb-dx-YTE"/>
                     <include reference="1dg-G1-vx3"/>
                     <include reference="4S8-qi-Xe4"/>
                     <include reference="8Nn-DJ-0he"/>
@@ -129,10 +133,6 @@
                     <exclude reference="fvb-Df-36g"/>
                     <include reference="wW4-bQ-pHd"/>
                     <include reference="yJU-UE-Pgb"/>
-                    <include reference="1FZ-Ye-CHr"/>
-                    <include reference="1qV-n3-S0s"/>
-                    <exclude reference="fTd-hG-Vyh"/>
-                    <include reference="xVb-dx-YTE"/>
                     <include reference="GZu-v9-ORE"/>
                     <exclude reference="Kzo-t9-V3l"/>
                     <exclude reference="MfP-vx-nX0"/>

@@ -27,9 +27,6 @@
 		D53852B21AC31CD10015BC19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53852B01AC31CD10015BC19 /* LaunchScreen.xib */; };
 		D53852BE1AC31CD10015BC19 /* RemedioJaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D53852BD1AC31CD10015BC19 /* RemedioJaTests.m */; };
 		D53852C81AC31CE90015BC19 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D53852C71AC31CE90015BC19 /* libxml2.dylib */; };
-		D53852CF1AC31CFE0015BC19 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D53852CA1AC31CFE0015BC19 /* TFHpple.m */; };
-		D53852D01AC31CFE0015BC19 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D53852CC1AC31CFE0015BC19 /* TFHppleElement.m */; };
-		D53852D11AC31CFE0015BC19 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D53852CE1AC31CFE0015BC19 /* XPathQuery.m */; };
 		E8E29FDC1ACB27A5008FAA46 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E29FDB1ACB27A5008FAA46 /* Realm.framework */; };
 		E8E29FDE1ACB3275008FAA46 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E29FDD1ACB3275008FAA46 /* libc++.dylib */; };
 /* End PBXBuildFile section */
@@ -84,12 +81,6 @@
 		D53852BC1AC31CD10015BC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D53852BD1AC31CD10015BC19 /* RemedioJaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemedioJaTests.m; sourceTree = "<group>"; };
 		D53852C71AC31CE90015BC19 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		D53852C91AC31CFE0015BC19 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		D53852CA1AC31CFE0015BC19 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		D53852CB1AC31CFE0015BC19 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		D53852CC1AC31CFE0015BC19 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
-		D53852CD1AC31CFE0015BC19 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		D53852CE1AC31CFE0015BC19 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		E8E29FDB1ACB27A5008FAA46 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		E8E29FDD1ACB3275008FAA46 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -172,7 +163,6 @@
 				D4C395981AC7746D008D1327 /* CoreLocation.framework */,
 				D53852C71AC31CE90015BC19 /* libxml2.dylib */,
 				D534840D1AC9BC9B00440AA6 /* Reachability (Verifica internet) */,
-				D53852D21AC31D030015BC19 /* Hpple */,
 				D538529D1AC31CD10015BC19 /* RemedioJa */,
 				D53852BA1AC31CD10015BC19 /* RemedioJaTests */,
 				D538529C1AC31CD10015BC19 /* Products */,
@@ -230,19 +220,6 @@
 				D53852BC1AC31CD10015BC19 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D53852D21AC31D030015BC19 /* Hpple */ = {
-			isa = PBXGroup;
-			children = (
-				D53852C91AC31CFE0015BC19 /* TFHpple.h */,
-				D53852CA1AC31CFE0015BC19 /* TFHpple.m */,
-				D53852CB1AC31CFE0015BC19 /* TFHppleElement.h */,
-				D53852CC1AC31CFE0015BC19 /* TFHppleElement.m */,
-				D53852CD1AC31CFE0015BC19 /* XPathQuery.h */,
-				D53852CE1AC31CFE0015BC19 /* XPathQuery.m */,
-			);
-			name = Hpple;
 			sourceTree = "<group>";
 		};
 		D53852D31AC31EED0015BC19 /* Classes */ = {
@@ -359,9 +336,6 @@
 			files = (
 				D4A832651AC9B80700FA5BBE /* Lembrete.m in Sources */,
 				D4D9D2D71AC764C9002C7252 /* ListaTableViewCell.m in Sources */,
-				D53852D01AC31CFE0015BC19 /* TFHppleElement.m in Sources */,
-				D53852D11AC31CFE0015BC19 /* XPathQuery.m in Sources */,
-				D53852CF1AC31CFE0015BC19 /* TFHpple.m in Sources */,
 				D4A832681AC9B82900FA5BBE /* LembreteViewController.m in Sources */,
 				D4A832611AC9B7F000FA5BBE /* HorariosViewController.m in Sources */,
 				D53852A41AC31CD10015BC19 /* AppDelegate.m in Sources */,
