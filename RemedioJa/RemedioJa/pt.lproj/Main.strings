@@ -29,6 +29,9 @@
 /* Class = "UILabel"; text = "Apresentacao"; ObjectID = "EfV-wy-c9l"; */
 "EfV-wy-c9l.text" = "Apresentacao";
 
+/* Class = "UILabel"; text = "Intervalo de repetição"; ObjectID = "AjQ-kG-Gvt.text"; */
+"AjQ-kG-Gvt.text" = "Intervalo de repetição";
+
 /* Class = "UILabel"; text = "R$ 99,99"; ObjectID = "I11-xQ-6I7"; */
 "I11-xQ-6I7.text" = "R$ 99,99";
 

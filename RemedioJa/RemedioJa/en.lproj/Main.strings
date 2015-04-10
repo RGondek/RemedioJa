@@ -26,6 +26,9 @@
 /* Class = "UILabel"; text = "De:"; ObjectID = "EXl-Zg-SM3"; */
 "EXl-Zg-SM3.text" = "From:";
 
+/* Class = "UILabel"; text = "Intervalo de repetição"; ObjectID = "AjQ-kG-Gvt.text"; */
+"AjQ-kG-Gvt.text" = "Repeat interval";
+
 /* Class = "UILabel"; text = "Apresentacao"; ObjectID = "EfV-wy-c9l"; */
 "EfV-wy-c9l.text" = "Presentation";
 
