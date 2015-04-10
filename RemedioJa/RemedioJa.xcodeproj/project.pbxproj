@@ -281,6 +281,7 @@
 				TargetAttributes = {
 					D538529A1AC31CD10015BC19 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7YCYVAN8PU;
 					};
 					D53852B61AC31CD10015BC19 = {
 						CreatedOnToolsVersion = 6.2;
@@ -491,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -507,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

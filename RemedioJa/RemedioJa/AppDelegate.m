@@ -20,9 +20,6 @@
         [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
         [[UIApplication sharedApplication] registerForRemoteNotifications];
     }
-    // Define o ícone de notificações pra 0
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber: 0];
-    [[UIApplication sharedApplication] cancelAllLocalNotifications];
     
     // Define cor da TabBar
     self.window.tintColor=[UIColor colorWithRed:20/225.0 green:154/225.0  blue:113/225.0 alpha:1];
